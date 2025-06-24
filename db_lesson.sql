@@ -54,7 +54,7 @@ Q6.
 "peopleテーブルからdepartment_idが1であるレコードのname,email,ageカラムをcreated_atカラムの数値の昇順で表示する";
 
 Q7.
-select name from people where gender = 1 and 39 < age and age < 50 or gender = 2 and 19 < age and age < 30;
+select name from people where gender = 1 and age between 40 and 49 or gender = 2 and  age between 20 and 29;
 
 Q8.
 select * from people where department_id = 1 order by age;
