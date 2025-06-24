@@ -7,8 +7,7 @@ update_at timestamp default current_timestamp on update current_timestamp
 );
 
 Q2.
-alter table people add department_id int unsigned;
-alter table people modify department_id text after email;
+alter table people add department_id int unsigned after email;
 
 Q3.
 insert into departments (name)
